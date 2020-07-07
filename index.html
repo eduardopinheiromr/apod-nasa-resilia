@@ -5,17 +5,28 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Pic of the Day</title>
-  <link rel="stylesheet" href="index.css">
-  <script defer src="index.js"></script>
+  <link rel="stylesheet" href="./src/view/style.css">
+  <script defer src="./src/view/animations.js"></script>
 </head>
 
 <body>
   <header>
     <h1>Pic of the Day</h1>
   </header>
-
-
+  <main>
+    <label for="input-data">Insira uma data</label>
+    <input type="date" id="input-data">
+    <p class="date"></p>
+    <p class="title"></p>
+    <div class="media">
+    </div>
+    <p class="explanation"></p>
+    <p class="copyright"></p>
+  </main>
+  <footer></footer>
   <div class="informacoes"></div>
+  <script src="./src/model/Conteudo.js"></script>
+  <script src="./src/controller/requisicao.js"></script>
 </body>
 
 </html>

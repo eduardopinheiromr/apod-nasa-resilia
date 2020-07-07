@@ -10,12 +10,37 @@ body{
 }
 
 header{
+  height: 15vh;
   display: flex;
   align-items: center;
   justify-content: center;
   background: darkblue;
   color: whitesmoke;
   width: 100%;
+}
+
+main{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+main div{
+  height: 80vh;
+  width: 70%;
+}
+
+main p {
+  padding-left: 200px;
+  padding-right: 200px;
+  text-align: center;
+}
+
+footer{
+  height: 5vh;
+  width: 100%;
+  background: darkblue;
 }
 
 .informacoes div{
